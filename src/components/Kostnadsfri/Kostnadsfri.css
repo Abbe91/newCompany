@@ -1,0 +1,27 @@
+.kostnadfri-cont {
+  background-color: #00a7ac; /* Your primary color */
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+.kostnadfri-content {
+  background-color: #00a7ac;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.kostnadfri-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.kostnadfri-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}

@@ -1,0 +1,61 @@
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.aboutUs-info {
+  max-width: 90%;
+  width: 100%;
+  transition: all 0.3s linear;
+}
+
+.aboutUs-title {
+  color: #00a7ac;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.aboutUs-intro {
+  margin: 0.75rem auto;
+  font-size: 0.8rem;
+}
+
+.aboutUs-services {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.aboutUs-details {
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.aboutUs-link {
+  color: #00a7ac;
+  text-decoration: underline;
+}
+
+.aboutUs-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.aboutUs-address,
+.aboutUs-contact-info {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.aboutUs-address h4,
+.aboutUs-contact-info h4 {
+  margin-bottom: 0.5rem;
+}
+
+.aboutUs-contact-info {
+  line-height: 1.5;
+}

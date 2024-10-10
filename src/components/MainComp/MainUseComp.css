@@ -1,0 +1,151 @@
+
+.mainComp {
+    background: #00a7ac;
+    color: white;
+    text-align: center;
+  }
+  
+  .mainComp-header {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    margin-top: 80px;
+  }
+  
+  .mainComp-title {
+    opacity: 0.9; 
+    border-bottom: 1px solid #ffffff; 
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
+  }
+  
+  .mainComp-subtitle {
+    margin-bottom: 1rem; 
+    font-size: 2.5rem;
+  }
+  
+  .mainComp-description {
+    max-width: 90%;
+    margin: 0 auto 2rem auto;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+  }
+  
+  .mainComp-description a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .mainComp-description a:hover {
+    color: #ffd700;
+  }
+  
+  .mainComp-content {
+    display: flex;
+    max-width: 700px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .mainComp-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .mainComp-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .mainComp-img {
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .mainComp-link {
+    font-size: 0.8rem;
+    color: #ffffff;
+    max-width: 100px;
+    margin-top: 0.3rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .mainComp-link:hover {
+    color: #ffd700;
+  }
+  
+  .table-of-contnet{
+    color: #ffd700;
+    display: none;
+  }
+
+  @media screen and (max-width: 672px) {
+    .mainComp-img {
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+      height: 60px;
+      width: 60px;
+    }
+  }
+  
+  @media screen and (min-width: 673px) and (max-width: 849px) {
+    .mainComp-img {
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+      height: 60px;
+      width: 60px;
+    }
+  }
+  
+  @media screen and (min-width: 850px) and (max-width: 1299px) {
+    .mainComp-img {
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+      height: 80px;
+      width: 80px;
+    }
+    .mainComp-link {
+      font-size: 1rem;
+      margin-top: 0.3rem;
+      letter-spacing: 0.5px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .mainComp-description{
+      font-size: 1.4rem;
+      text-decoration: none;
+    }
+    .mainComp-description a{
+      font-size: 1.4rem;
+      text-decoration: none;
+    }
+    .toc-root h3 {
+      font-weight: 100;
+      font-size: 1.4rem;
+      letter-spacing: 0.5px;
+      margin-right: 0.3rem;
+      margin-top: 30px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 1300px) {
+    .mainComp-img {
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+      height: 60px;
+      width: 60px;
+    }
+  }
+  

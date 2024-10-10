@@ -1,0 +1,41 @@
+.erbjuder {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.erbjuder h4 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.erbjuder p {
+  color: #00a7ac;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  min-width: 100%;
+}
+
+#webbutveckling,
+#seo,
+#digital-marknadsforing,
+#grafisk-design,
+#underhall-av-webbplatser {
+  background: #00a7ac;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#webbutveckling:hover,
+#seo:hover,
+#digital-marknadsforing:hover,
+#grafisk-design:hover,
+#underhall-av-webbplatser:hover {
+  background-color: #17676d;
+  cursor: pointer;
+}

@@ -21,6 +21,7 @@ const Ehandel = ({ videoText }) => {
   const newsData = useSelector(getNewsData);
   const bingNews = useSelector(getBingNews);
   const [content, setContent] = useState({
+    //
     metaTitle: "E-handel - Skapa en framgångsrik onlinebutik",
     metaContent:
       "Vill du förbättra din e-handelsplattform och öka din online-försäljning? Våra experter på e-handel hjälper dig att skapa en framgångsrik onlinebutik.",

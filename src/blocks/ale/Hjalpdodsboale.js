@@ -15,7 +15,7 @@ import { getNewsData, getBingNews } from "../../redux-toolkit/news/newsSlice";
 import LottieBooking from "../../LottieAnimation/LottieBooking";
 import booking from "../../utils/animation/Booking-time.json";
 import BookingModal from "../../components/BookingModal";
-const Hjalpdodsboale = ({ videoText }) => {
+const Hjalpdodsboale = ({ videoText }) => { 
   const [modalOpen, setModalOpen] = useState(false);
   const mainquery = "hjälp dödsbo Ale";
   const newsData = useSelector(getNewsData);

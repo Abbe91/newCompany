@@ -17,7 +17,7 @@ const Bortforslingdodsboale = () => {
     pageUrl: "https://centrumforalla.se/bortforsling-dodsbo-ale",
     text1: "Vårt företag har varit i branschen i över 20år. Vi har flera samarbeten med auktionsfirmor, olika typer va hjälp boenden, och hjälp organisationer. Vi skänker lösöre och möbler samt sorterar och och värnar om miljön",
     OmaboutUs: "är det självklara valet för hantering av bohag och dödsbo med 20 års erfarenhet",
-    costFreeService: "Värdering"
+    ourSerivce: "Värdering"
   });
 
   

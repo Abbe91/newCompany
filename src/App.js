@@ -311,18 +311,6 @@ const Flyttstadninggoteborg = lazy(
 const Flyttstadningkungalv = lazy(
   () => import("./blocks/flyttstadning/Flyttstadningkungalv")
 );
-const Koperdodsboalingsas = lazy(
-  () => import("./blocks/alingsas/Koperdodsboalingsas")
-);
-const Stadardodsboalingsas = lazy(
-  () => import("./blocks/alingsas/Stadardodsboalingsas")
-);
-const Tommadodsboalingsas = lazy(
-  () => import("./blocks/alingsas/Tommadodsboalingsas")
-);
-const Varderadodsboalingsas = lazy(
-  () => import("./blocks/alingsas/Varderadodsboalingsas")
-);
 const Bohagsflytt = lazy(() => import("./blocks/flytt/Bohagsflytt"));
 const Varderadodsbo = lazy(() => import("./components/Varderadodsbo"));
 const Bortforslingdodsbo = lazy(
@@ -660,30 +648,6 @@ const App = () => {
             <Route
               path="/bohagsflytt"
               element={<Bohagsflytt videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/vardera-dodsbo-alingsas"
-              element={
-                <Varderadodsboalingsas videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/tomma-dodsbo-alingsas"
-              element={
-                <Tommadodsboalingsas videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/stadar-dodsbo-alingsas"
-              element={
-                <Stadardodsboalingsas videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/koper-dodsbo-alingsas"
-              element={
-                <Koperdodsboalingsas videoText={contentData?.videoText} />
-              }
             />
             <Route
               path="/flyttstadning-i-goteborg"

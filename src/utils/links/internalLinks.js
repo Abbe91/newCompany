@@ -378,10 +378,6 @@ export const fleromrodenLinks = [
     title: "Flyttstädning i Kungälv",
   },
   {
-    path: "/bohagsflytt",
-    title: "Bohagsflytt",
-  },
-  {
     path: "/vardera-dodsbo",
     title: "Värdera dödsbo",
   },

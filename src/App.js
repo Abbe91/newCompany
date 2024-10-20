@@ -286,7 +286,6 @@ const Flyttstadninggoteborg = lazy(
 const Flyttstadningkungalv = lazy(
   () => import("./blocks/flyttstadning/Flyttstadningkungalv")
 );
-const Bohagsflytt = lazy(() => import("./blocks/flytt/Bohagsflytt"));
 const Varderadodsbo = lazy(() => import("./components/Varderadodsbo"));
 const Bortforslingdodsbo = lazy(
   () => import("./components/Bortforslingdodsbo")
@@ -317,9 +316,6 @@ const Tommerhemgoteborg = lazy(
   () => import("./blocks/Goteborg/Tommerhemgoteborg")
 );
 const Bortforsling = lazy(() => import("./blocks/Goteborg/Bortforsling"));
-const Billigflyttfirmagoteborg = lazy(
-  () => import("./blocks/flytt/Billigflyttfirmagoteborg")
-);
 const Flyttfirmakungalv = lazy(
   () => import("./blocks/flytt/Flyttfirmakungalv")
 );
@@ -480,12 +476,6 @@ const App = () => {
             <Route path="/avfallshantering" element={<Avfallshantering />} />
             <Route path="/boka" element={<BookingModal />} />
             <Route
-              path="flyttfirma/billig-flyttfirma-goteborg"
-              element={
-                <Billigflyttfirmagoteborg videoText={contentData?.videoText} />
-              }
-            />
-            <Route
               path="flyttfirma/flyttfirma-kungalv"
               element={<Flyttfirmakungalv videoText={contentData?.videoText} />}
             />
@@ -603,10 +593,6 @@ const App = () => {
               element={<Saneradodsbo videoText={contentData?.videoText} />}
             />
             <Route
-              path="/bohagsflytt"
-              element={<Flytta videoText={contentData?.videoText} />}
-            />
-            <Route
               path="/bortforsling-dodsbo"
               element={
                 <Bortforslingdodsbo videoText={contentData?.videoText} />
@@ -615,10 +601,6 @@ const App = () => {
             <Route
               path="/vardera-dodsbo"
               element={<Varderadodsbo videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/bohagsflytt"
-              element={<Bohagsflytt videoText={contentData?.videoText} />}
             />
             <Route
               path="/flyttstadning-i-goteborg"

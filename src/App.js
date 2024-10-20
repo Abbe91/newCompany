@@ -270,32 +270,7 @@ const Tommadodsbotrollhattan = lazy(
 const Varderadodsbotrollhattan = lazy(
   () => import("./blocks/Trollhattan/Varderadodsbotrollhattan")
 );
-const Bortforslingdodsboboras = lazy(
-  () => import("./blocks/boras/Bortforslingdodsboboras")
-);
-const Dodsbofirmaboras = lazy(() => import("./blocks/boras/Dodsbofirmaboras"));
-const Dodsbotomningboras = lazy(
-  () => import("./blocks/boras/Dodsbotomningboras")
-);
-const Flyttstadningdodsboboras = lazy(
-  () => import("./blocks/boras/Flyttstadningdodsboboras")
-);
-const Kopadodsboboras = lazy(() => import("./blocks/boras/Kopadodsboboras"));
-const Rojadodsboboras = lazy(() => import("./blocks/boras/Rojadodsboboras"));
-const Saljadodsboboras = lazy(() => import("./blocks/boras/Saljadodsboboras"));
-const Slutstadningdodsboboras = lazy(
-  () => import("./blocks/boras/Slutstadningdodsboboras")
-);
-const Tommadodsboboras = lazy(() => import("./blocks/boras/Tommadodsboboras"));
-const Tommerlagenheterboras = lazy(
-  () => import("./blocks/boras/Tommerlagenheterboras")
-);
-const Uppkopdodsboboras = lazy(
-  () => import("./blocks/boras/Uppkopdodsboboras")
-);
-const Varderadodsboboras = lazy(
-  () => import("./blocks/boras/Varderadodsboboras")
-);
+
 const Flyttstadningavbohag = lazy(
   () => import("./blocks/flyttstadning/Flyttstadningavbohag")
 );
@@ -349,7 +324,6 @@ const Flyttfirmakungalv = lazy(
   () => import("./blocks/flytt/Flyttfirmakungalv")
 );
 const Flyttfirmaoffert = lazy(() => import("./blocks/flytt/Flyttfirmaoffert"));
-const Flyttfirmaboras = lazy(() => import("./blocks/flytt/Flyttfirmaboras"));
 const Flyttfirmagoteborg = lazy(
   () => import("./blocks/flytt/Flyttfirmagoteborg")
 );
@@ -515,10 +489,7 @@ const App = () => {
               path="flyttfirma/flyttfirma-kungalv"
               element={<Flyttfirmakungalv videoText={contentData?.videoText} />}
             />
-            <Route
-              path="flyttfirma/flyttfirma-boras"
-              element={<Flyttfirmaboras videoText={contentData?.videoText} />}
-            />
+
             <Route
               path="flyttfirma/flyttfirma-goteborg"
               element={
@@ -674,66 +645,6 @@ const App = () => {
             <Route
               path="/vardering-av-dodsbo"
               element={<Varderingavdodsbo videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/tomma-dodsbo-boras"
-              element={<Tommadodsboboras videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/vardera-dodsbo-boras"
-              element={
-                <Varderadodsboboras videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/uppkop-dodsbo-boras"
-              element={<Uppkopdodsboboras videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/tommer-lagenheter-boras"
-              element={
-                <Tommerlagenheterboras videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/slutstadning-dodsbo-boras"
-              element={
-                <Slutstadningdodsboboras videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/salja-dodsbo-boras"
-              element={<Saljadodsboboras videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/kopa-dodsbo-boras"
-              element={<Kopadodsboboras videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/roja-dodsbo-boras"
-              element={<Rojadodsboboras videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/bortforsling-dodsbo-boras"
-              element={
-                <Bortforslingdodsboboras videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/dodsbo-firma-boras"
-              element={<Dodsbofirmaboras videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="/dodsbo-tomning-boras"
-              element={
-                <Dodsbotomningboras videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="/flyttstadning-dodsbo-boras"
-              element={
-                <Flyttstadningdodsboboras videoText={contentData?.videoText} />
-              }
             />
             <Route
               path="/flyttstadning-trollhattan"

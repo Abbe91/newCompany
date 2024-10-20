@@ -3,7 +3,7 @@ import BlocksTemplate from "../Template/BlocksTemplate";
 
 
 const Bortforslingdodsboale = () => {
-
+// USE THIS CODE AS EXAMPLE WHEN YOU ADD A SERVICE PAGE
   const serviceData = ({
     mainquery: "bortforsling dödsbo Ale",
     metaTitle: "Smidig bortforsling av dödsbo i Ale - Låt oss ta hand om allt",

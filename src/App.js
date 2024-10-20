@@ -33,7 +33,10 @@ const Digitalmarknadsforing = lazy(
 const Innehallsskapande = lazy(() => import("./blocks/Innehallsskapande"));
 const Ppcannonsering = lazy(() => import("./blocks/Ppcannonsering"));
 const Uxdesign = lazy(() => import("./blocks/Uxdesign"));
+
+// GÖTEBORG
 const Seogoteborg = lazy(() => import("./blocks/Goteborg/SeoGoteborg"));
+const DigitalmarkertingGoteborg = lazy(() => import("./blocks/Goteborg/DigitalmarkertingGoteborg"));
 
 //I will delete this
 const LeadsDetails = lazy(() => import("./pages/LeadsDetails"));
@@ -500,6 +503,11 @@ const App = () => {
               path="/seo-goteborg"
               element={<Seogoteborg videoText={contentData?.videoText} />}
             />
+            <Route
+              path="/digital-marknadsforing-goteborg"
+              element={<DigitalmarkertingGoteborg videoText={contentData?.videoText} />}
+            />
+
             {/*I will delete this*/}
             <Route path="/atervinning" element={<Atervinning />} />
             <Route

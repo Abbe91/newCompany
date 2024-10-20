@@ -10,45 +10,37 @@ import Erbjuder from "../../components/Erbjuder/Erbjuder";
 import { getElement } from "../../redux-toolkit/scrollElement/scrollElementSlice";
 import Kostnadsfri from "../../components/Kostnadsfri/Kostnadsfri";
 import { Helmet } from "react-helmet-async";
-import { getNewsData } from "../../redux-toolkit/news/newsSlice";
+import { getNewsData, getBingNews } from "../../redux-toolkit/news/newsSlice";
 import LottieBooking from "../../LottieAnimation/LottieBooking";
 import booking from "../../utils/animation/Booking-time.json";
 import BookingModal from "../../components/BookingModal";
-const Bortforsling = ({ videoText }) => {
-  const [modalOpen, setModalOpen] = useState(false);
-  const mainquery = "Bortforsling av hushåll och dödsbon";
-  const newsData = useSelector(getNewsData);
-  const [content, setContent] = useState({
-    metaTitle: "Professionell bortforsling - Rensa ditt hem utan stress",
-    metaContent:
-      "Få bort det som inte längre behövs med hjälp av vår professionella bortforslingstjänst. Vi tar hand om allt åt dig, från sortering till avyttring.",
-    query: "Bortforsling av hushåll och dödsbon",
-    formTitle: "Bortforsling av hushåll och dödsbon",
-    subTitle2:
-      "Behöver du rensa ut gamla saker? Anlita oss för en enkel och prisvärd bortforsling",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
-  });
-  const customerData = useSelector(getCustomerData);
 
-  const services =
-    "uppköp, tömning, bortforsling, sanering, luktsanering, flytt, städ, försäljning av dödsbo och hushåll";
-  const element = useSelector(getElement);
-  // TestNoah
-  useEffect(() => {
-    document
-      .querySelector(`.${element}`)
-      .scrollIntoView({ behavior: "smooth" });
-  }, [element]);
-  return (
+
+const BlocksTemplate = ({ serviceData }) => {
+    const [modalOpen, setModalOpen] = useState(false);
+    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl} = serviceData
+
+const element = useSelector(getElement);
+const customerData = useSelector(getCustomerData);
+const newsData = useSelector(getNewsData);
+
+useEffect(() => {
+  document
+    .querySelector(`.${element}`)
+    .scrollIntoView({ behavior: "smooth" });
+}, [element]);
+
+
+return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{content.metaTitle}</title>
-        <meta name="description" content={content.metaContent} />
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaContent} />
         <link
-          rel="canonical"
-          href="https://centrumforalla.se/bortforsling"
           hrefLang="sv"
+          rel="canonical"
+          href={pageUrl}
         />
       </Helmet>
       <div className="Nav">
@@ -56,12 +48,13 @@ const Bortforsling = ({ videoText }) => {
       </div>
       <div className="Hem">
         <MainComp
-          query={content.query}
-          formTitle={content.formTitle}
+          city={city}
+          query={query}
+          formTitle={formTitle}
           icon={<BsHouseDoor />}
           subTitle={`Välkommen till ${customerData.business}`}
-          subTitle2={content.subTitle2}
-          subTitle3={content.subTitle3}
+          subTitle2={subTitle2}
+          subTitle3={subTitle3}
           text={`Behöver du hjälp med ${mainquery}? Då är vi på ${customerData.business} det självklara valet. Vi är en firma som verkligen kan allt kring ${mainquery}. Vi kan också hjälpa dig med ${services}. Vi erbjuder en full helhetslösning med målet att ge det bästa valet för dig och din plånbok. Som kund hos har du allt samlat hos ett och samma företag.`}
           subTitle4={`Helhetslösning för ${mainquery}`}
           text1={`Vårt företag har varit i branschen i över 20år. Vi har flera samarbeten med auktionsfirmor, olika typer va hjälp boenden, och hjälp organisationer. Vi skänker lösöre och möbler samt sorterar och och värnar om miljön`}
@@ -74,7 +67,7 @@ const Bortforsling = ({ videoText }) => {
         <AboutUs
           query={mainquery.toUpperCase()}
           oss={`Vilka är vi? Och hur gör vi för att kunna hjälpa dig ${mainquery}?`}
-          om={`är det självklara valet för hantering av hushåll och dödsbo med 20 års erfarenhet.`}
+          om={`är det självklara valet för hantering av bohag och dödsbo med 20 års erfarenhet.`}
         />
       </div>
       {newsData && (
@@ -83,7 +76,7 @@ const Bortforsling = ({ videoText }) => {
         </div>
       )}
       <div className="Tjänster">
-        <Erbjuder />
+        <Erbjuder city={city} />
       </div>
 
       <div className="booking-lottie">
@@ -122,4 +115,4 @@ const Bortforsling = ({ videoText }) => {
   );
 };
 
-export default Bortforsling;
+export default BlocksTemplate;

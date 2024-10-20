@@ -316,14 +316,6 @@ const Tommerhemgoteborg = lazy(
   () => import("./blocks/Goteborg/Tommerhemgoteborg")
 );
 const Bortforsling = lazy(() => import("./blocks/Goteborg/Bortforsling"));
-const Flyttfirmakungalv = lazy(
-  () => import("./blocks/flytt/Flyttfirmakungalv")
-);
-const Flyttfirmaoffert = lazy(() => import("./blocks/flytt/Flyttfirmaoffert"));
-const Flyttfirmagoteborg = lazy(
-  () => import("./blocks/flytt/Flyttfirmagoteborg")
-);
-//
 const Tommerdodsbonlerum = lazy(
   () => import("./blocks/lerum/Tommerdodsbonlerum")
 );
@@ -475,21 +467,6 @@ const App = () => {
             <Route path="/forfragan" element={<ForFragan />} />
             <Route path="/avfallshantering" element={<Avfallshantering />} />
             <Route path="/boka" element={<BookingModal />} />
-            <Route
-              path="flyttfirma/flyttfirma-kungalv"
-              element={<Flyttfirmakungalv videoText={contentData?.videoText} />}
-            />
-
-            <Route
-              path="flyttfirma/flyttfirma-goteborg"
-              element={
-                <Flyttfirmagoteborg videoText={contentData?.videoText} />
-              }
-            />
-            <Route
-              path="flyttfirma/flyttfirma-offert"
-              element={<Flyttfirmaoffert videoText={contentData?.videoText} />}
-            />
             <Route
               path="/salja-dodsbo/salja-dodsbo"
               element={<SaljaDodsbon videoText={contentData?.videoText} />}

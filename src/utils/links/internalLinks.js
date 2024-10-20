@@ -68,10 +68,6 @@ export const internallinks = [
     title: "Städa dödsbo Göteborg",
   },
   {
-    path: "vardera-dodsbo-kungsbacka",
-    title: "Värdera dödsbo Kungsbacka",
-  },
-  {
     path: "bortforsling-dodsbo-partille",
     title: "Bortforsling dödsbo Partille",
   },
@@ -94,38 +90,6 @@ export const internallinks = [
   {
     path: "uppkop-dodsbo-partille",
     title: "Uppköp dödsbo Partille",
-  },
-  {
-    path: "flyttstadning-trollhattan",
-    title: "Flyttstädning Trollhättan",
-  },
-  {
-    path: "dodsbo-trollhattan",
-    title: "Dödsbo Trollhättan",
-  },
-  {
-    path: "dodsbo-kopes-trollhattan",
-    title: "Dödsbo köpes Trollhättan",
-  },
-  {
-    path: "bortforsling-dodsbo-trollhattan",
-    title: "Bortforsling dödsbo Trollhättan",
-  },
-  {
-    path: "vardera-dodsbo-trollhattan",
-    title: "Värdera dödsbo Trollhättan",
-  },
-  {
-    path: "salja-dodsbo-trollhattan",
-    title: "Sälja dödsbo Trollhättan",
-  },
-  {
-    path: "tomma-dodsbo-trollhattan",
-    title: "Tömma dödsbo Trollhättan",
-  },
-  {
-    path: "stadning-av-dodsbo-trollhattan",
-    title: "Städning av dödsbo Trollhättan",
   },
 ];
 
@@ -222,10 +186,6 @@ export const popularLinks = [
     path: "vardera-dodsbo-stenungsund",
     title: "Värdera dödsbo Stenungsund",
   },
-  {
-    path: "tomma-hus-kungsbacka",
-    title: "Tömma hus Kungsbacka",
-  },
 ];
 
 export const fleromrodenLinks = [
@@ -286,26 +246,6 @@ export const fleromrodenLinks = [
     title: "Uppköp dödsbo Kungälv",
   },
   {
-    path: "uppkop-dodsbo-frolunda",
-    title: "Uppköp dödsbo Frölunda",
-  },
-  {
-    path: "salja-dodsbo-frolunda",
-    title: "Sälja dödsbo Frölunda",
-  },
-  {
-    path: "tomma-dodsbo-frolunda",
-    title: "Tömma dödsbo Frölunda",
-  },
-  {
-    path: "vardera-dodsbo-frolunda",
-    title: "Värdera dödsbo Frölunda",
-  },
-  {
-    path: "bortforsling-dodsbo-frolunda",
-    title: "Bortforsling dödsbo Frölunda",
-  },
-  {
     path: "dodsbo-uppkopare-goteborg",
     title: "Dödsbo uppköpare Göteborg",
   },
@@ -334,34 +274,6 @@ export const fleromrodenLinks = [
     title: "Företag som köper bohag",
   },
   {
-    path: "bortforsling-dodsbo-kungsbacka",
-    title: "Bortforsling dödsbo Kungsbacka",
-  },
-  {
-    path: "dodsbo-firma-kungsbacka",
-    title: "Dödsbo firma Kungsbacka",
-  },
-  {
-    path: "hamtar-dodsbo-kungsbacka",
-    title: "Hämtar dödsbo Kungsbacka",
-  },
-  {
-    path: "koper-dodsbo-kungsbacka",
-    title: "Köper dödsbo Kungsbacka",
-  },
-  {
-    path: "salja-dodsbo-kungsbacka",
-    title: "Sälja dödsbo Kungsbacka",
-  },
-  {
-    path: "tomma-dodsbo-kungsbacka",
-    title: "Tömma dödsbo Kungsbacka",
-  },
-  {
-    path: "tommer-dodsbo-kungsbacka",
-    title: "Tömmer dödsbo Kungsbacka",
-  },
-  {
     path: "vardering-av-dodsbo",
     title: "Värdering av dödsbo",
   },
@@ -370,15 +282,11 @@ export const fleromrodenLinks = [
     title: "Flyttstädning",
   },
   {
-    path: "flyttstadning-i-goteborg",
-    title: "Flyttstädning i Göteborg",
-  },
-  {
     path: "flyttstadning-i-kungalv",
     title: "Flyttstädning i Kungälv",
   },
   {
-    path: "/vardera-dodsbo",
-    title: "Värdera dödsbo",
+    path: "/webbdesign",
+    title: "webbdesign",
   },
 ];

@@ -35,7 +35,7 @@ const Ppcannonsering = lazy(() => import("./blocks/Ppcannonsering"));
 const Uxdesign = lazy(() => import("./blocks/Uxdesign"));
 const LeadsDetails = lazy(() => import("./pages/LeadsDetails"));
 const PrivatRoute = lazy(() => import("./pages/PrivatRoute"));
-const Dashboard = lazy(() => import("./pages/Dashboard"));
+
 const AtervinningscentralGoteborg = lazy(
   () => import("./pages/InfoPages/AtervinningscentralGoteborg")
 );
@@ -241,22 +241,6 @@ const App = () => {
             <Route
               path="dodsbodelagare"
               element={<Dodsbodelagare videoText={contentData?.videoText} />}
-            />
-            <Route
-              path="dashboard/leads/customer/:id"
-              element={
-                <PrivatRoute>
-                  <LeadsDetails />
-                </PrivatRoute>
-              }
-            />
-            <Route
-              path="/dashboard-main"
-              element={
-                <PrivatRoute>
-                  <Dashboard />
-                </PrivatRoute>
-              }
             />
             <Route path="*" element={<Error />} />
           </Routes>

@@ -15,10 +15,9 @@ import LottieBooking from "../../LottieAnimation/LottieBooking";
 import booking from "../../utils/animation/Booking-time.json";
 import BookingModal from "../../components/BookingModal";
 
-
 const BlocksTemplate = ({ serviceData }) => {
     const [modalOpen, setModalOpen] = useState(false);
-    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl, text1, OmaboutUs, costFreeService} = serviceData
+    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl, text1, OmaboutUs, ourSerivce} = serviceData
 
 const element = useSelector(getElement);
 const customerData = useSelector(getCustomerData);
@@ -67,7 +66,7 @@ return (
         <AboutUs
           query={mainquery.toUpperCase()}
           oss={`Vilka är vi? Och hur gör vi för att kunna hjälpa dig ${mainquery}?`}
-          om={OmaboutUs}
+          om={OmaboutUs} // TODO REWRITE THE NAMES
         />
       </div>
       {newsData && (
@@ -106,7 +105,7 @@ return (
 
       <div className="Kostnadsfri">
         <Kostnadsfri
-          vad={costFreeService}
+          vad={ourSerivce}
           mainquery={mainquery}
           text={`${videoText}${mainquery}.`}
         />

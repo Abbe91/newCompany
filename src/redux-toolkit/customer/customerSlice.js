@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   email: "info@centrumforalla.se",
-  phone: "07000000",
+  phone: "07000333",
   business: "Centrum för alla",
   adress: "Nära dig i hela Sverige",
   zip: "Huvudkontor: ",

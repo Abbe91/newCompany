@@ -18,7 +18,7 @@ import BookingModal from "../../components/BookingModal";
 
 const BlocksTemplate = ({ serviceData }) => {
     const [modalOpen, setModalOpen] = useState(false);
-    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl} = serviceData
+    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl, text1, OmaboutUs, costFreeService} = serviceData
 
 const element = useSelector(getElement);
 const customerData = useSelector(getCustomerData);
@@ -57,7 +57,7 @@ return (
           subTitle3={subTitle3}
           text={`Behöver du hjälp med ${mainquery}? Då är vi på ${customerData.business} det självklara valet. Vi är en firma som verkligen kan allt kring ${mainquery}. Vi kan också hjälpa dig med ${services}. Vi erbjuder en full helhetslösning med målet att ge det bästa valet för dig och din plånbok. Som kund hos har du allt samlat hos ett och samma företag.`}
           subTitle4={`Helhetslösning för ${mainquery}`}
-          text1={`Vårt företag har varit i branschen i över 20år. Vi har flera samarbeten med auktionsfirmor, olika typer va hjälp boenden, och hjälp organisationer. Vi skänker lösöre och möbler samt sorterar och och värnar om miljön`}
+          text1={text1}
           subTitle5={"Våra tjänster"}
           text2={`Vi kan hjälpa dig med ${services}`}
         />
@@ -67,7 +67,7 @@ return (
         <AboutUs
           query={mainquery.toUpperCase()}
           oss={`Vilka är vi? Och hur gör vi för att kunna hjälpa dig ${mainquery}?`}
-          om={`är det självklara valet för hantering av bohag och dödsbo med 20 års erfarenhet.`}
+          om={OmaboutUs}
         />
       </div>
       {newsData && (
@@ -106,7 +106,7 @@ return (
 
       <div className="Kostnadsfri">
         <Kostnadsfri
-          vad={"Värdering"}
+          vad={costFreeService}
           mainquery={mainquery}
           text={`${videoText}${mainquery}.`}
         />

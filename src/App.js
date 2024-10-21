@@ -33,6 +33,7 @@ const Digitalmarknadsforing = lazy(
 const Innehallsskapande = lazy(() => import("./blocks/Innehallsskapande"));
 const Ppcannonsering = lazy(() => import("./blocks/Ppcannonsering"));
 const Uxdesign = lazy(() => import("./blocks/Uxdesign"));
+const SeoStockholm = lazy(() => import("./blocks/Stockholm/SeoStockholm"));
 const LeadsDetails = lazy(() => import("./pages/LeadsDetails"));
 const PrivatRoute = lazy(() => import("./pages/PrivatRoute"));
 
@@ -185,6 +186,10 @@ const App = () => {
             <Route
               path="/ux-design"
               element={<Uxdesign videoText={contentData?.videoText} />}
+            />
+            <Route
+              path="/seo-stockholm"
+              element={<SeoStockholm videoText={contentData?.videoText} />}
             />
             <Route path="/atervinning" element={<Atervinning />} />
             <Route

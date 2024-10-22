@@ -39,6 +39,10 @@ const PrivatRoute = lazy(() => import("./pages/PrivatRoute"));
 const AtervinningscentralGoteborg = lazy(
   () => import("./pages/InfoPages/AtervinningscentralGoteborg")
 );
+
+
+
+
 const Atervinningscentral = lazy(
   () => import("./pages/InfoPages/Atervinningscentral")
 );
@@ -60,6 +64,13 @@ const Varderadodsboale = lazy(() => import("./blocks/ale/Varderadodsboale"));
 const ExternaLankar = lazy(
   () => import("./components/externalLinks/ExternaLankar")
 );
+
+
+const PpcannonseringGoteborg = lazy(
+  () => import("./blocks/Goteborg/PpcannonseringGoteborg")
+);
+
+
 const Dodsboanmalan = lazy(() => import("./pages/InfoPages/Dodsboanmalan"));
 const Dodsbodelagare = lazy(() => import("./pages/InfoPages/Dodsbodelagare"));
 const Dodsboet = lazy(() => import("./pages/InfoPages/Dodsboet"));
@@ -194,6 +205,10 @@ const App = () => {
             <Route
               path="/atervinningscentral-goteborg"
               element={<AtervinningscentralGoteborg />}
+            />
+            <Route
+              path="/ppcannonsering-goteborg"
+              element={<PpcannonseringGoteborg />}
             />
             <Route
               path="/atervinningsstation"

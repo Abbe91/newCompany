@@ -39,6 +39,9 @@ const PrivatRoute = lazy(() => import("./pages/PrivatRoute"));
 const AtervinningscentralGoteborg = lazy(
   () => import("./pages/InfoPages/AtervinningscentralGoteborg")
 );
+
+const WebbdesignGoteborg = lazy(() => import("./blocks/Goteborg/WebbdesignGoteborg"));
+
 const Atervinningscentral = lazy(
   () => import("./pages/InfoPages/Atervinningscentral")
 );
@@ -194,6 +197,10 @@ const App = () => {
             <Route
               path="/atervinningscentral-goteborg"
               element={<AtervinningscentralGoteborg />}
+            />
+            <Route
+              path="/webb-design-goteborg"
+              element={<WebbdesignGoteborg />}
             />
             <Route
               path="/atervinningsstation"

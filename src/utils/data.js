@@ -21,7 +21,7 @@ export const navlinks = [
   {
     id: 4,
     label: "Digital Marknadsföring",
-    path: "/digital-marknadsforing",
+    path: "/digitalmarknadsforing",
   },
   {
     id: 5,
@@ -36,12 +36,12 @@ export const navlinks = [
   {
     id: 7,
     label: "E-handel",
-    path: "/e-handel",
+    path: "/ehandel",
   },
   {
     id: 8,
     label: "UX-design",
-    path: "/ux-design",
+    path: "/uxdesign",
   },
 ];
 

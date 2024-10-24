@@ -17,7 +17,7 @@ import BookingModal from "../../components/BookingModal";
 
 const BlocksTemplate = ({ serviceData }) => {
     const [modalOpen, setModalOpen] = useState(false);
-    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl, text1, OmaboutUs, ourSerivce} = serviceData
+    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl, text1, aboutUsText, ourSerivce} = serviceData
 
 const element = useSelector(getElement);
 const customerData = useSelector(getCustomerData);
@@ -66,7 +66,7 @@ return (
         <AboutUs
           query={mainquery.toUpperCase()}
           oss={`Vilka är vi? Och hur gör vi för att kunna hjälpa dig ${mainquery}?`}
-          om={OmaboutUs} // TODO REWRITE THE NAMES
+          om={aboutUsText} // TODO REWRITE THE NAMES
         />
       </div>
       {newsData && (

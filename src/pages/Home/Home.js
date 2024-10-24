@@ -26,6 +26,7 @@ const Home = ({ videoText }) => {
     formTitle: "Webbyråtjänster",
     subTitle2:
       "Din expert inom webbdesign och utveckling - allt från SEO till digital marknadsföring.",
+    h1: "Webbdesign och utveckling för företag",
     subTitle3: `Behöver du hjälp med ${mainquery}?`,
   });
   const customerData = useSelector(getCustomerData);
@@ -104,6 +105,7 @@ const Home = ({ videoText }) => {
           subTitle={`Välkommen till ${customerData.business}`}
           subTitle2={content.subTitle2}
           subTitle3={content.subTitle3}
+          h1={content.h1}
           text={`Vi är en webbyrå som kan allt kring ${mainquery}. Vi erbjuder ${services}. Vi erbjuder en helhetslösning som passar dig och din verksamhet.`}
           subTitle4={`Helhetslösning för ${mainquery}`}
           text1={`Vårt företag har över 20 års erfarenhet inom webbdesign och utveckling. Vi samarbetar med marknadsledande plattformar och erbjuder toppmoderna digitala lösningar.`}

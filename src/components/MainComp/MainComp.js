@@ -30,7 +30,9 @@ const MainComp = ({ subTitle5, text2, city, formTitle, h1 }) => {
     <section className="root">
       <div className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">{h1}</h1>
+          <h1 className="hero-title">
+            {h1 ? h1 : "Bästa webbyrå som finns i Sverige"}
+          </h1>
           <div className="hero-points">
             <p>. Skräddarsydd strategi</p>
             <p>. Optimerad marknadsföring</p>

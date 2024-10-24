@@ -35,43 +35,32 @@ const Home = ({ videoText }) => {
 
   const articleStructuredData = {
     "@context": "https://schema.org",
-    "@type": "WebDesignAgency",
-    name: "Centrum för Alla",
+    "@type": "LocalBusiness",
+    name: "Centrum För Alla",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Hisingsgatan 10",
+      streetAddress: "Grevegårdsvägen 236",
       addressLocality: "Göteborg",
-      addressRegion: "Sweden",
-      postalCode: "41702",
+      addressRegion: "Västra Götaland",
+      postalCode: "421 62",
       addressCountry: "SE",
     },
+    telephone: "+46729210561",
+    url: "https://centrumforalla.se",
+    sameAs: [
+      "https://www.facebook.com/centrumforalla",
+      "https://www.instagram.com/centrumforalla",
+      "https://www.linkedin.com/company/centrumforalla",
+    ],
+    openingHours: "Mo-Fr 09:00-17:00",
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "57.71659765082482",
-      longitude: "11.94740491088092",
+      latitude: "57.6500",
+      longitude: "11.9167",
     },
-    url: "www.centrumforalla.se",
-    telephone: "+46317539060",
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday",
-        ],
-        opens: "08:00",
-        closes: "18:00",
-      },
-    ],
-    priceRange: "5000kr-50000kr",
-    image: [
-      "https://images.pexels.com/photos/3651376/pexels-photo-3651376.jpeg?auto=compress&cs=tinysrgb&w=1300",
-    ],
+    image: "https://centrumforalla.com/logo.png",
+    priceRange: "$$",
+    description: "centrumforalla",
   };
 
   return (

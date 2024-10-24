@@ -1,6 +1,6 @@
 {
   "cities": [
-    {  
+    {
       "name": "Stockholm",
       "seo": {
         "meta_title": "SEO-tjänster i Stockholm - Rankas högre på Google",
@@ -102,7 +102,7 @@
         "h1": "Innehållsskapande för företag i Malmö",
         "body_text": "Våra tjänster för innehållsskapande i Malmö hjälper företag att producera engagerande blogginlägg, videor och sociala medieinlägg. Vi fokuserar på storytelling som resonerar med din publik och driver trafik till din webbplats.",
         "testimonial": "Deras innehållsskapande har förvandlat vår online-närvaro och ökat vår varumärkesmedvetenhet."
-      } 
+      }
     },
     {
       "name": "Göteborg",
@@ -415,10 +415,6 @@
         "body_text": "Vårt team i Jönköping hjälper företag att skapa högkvalitativt innehåll som engagerar deras målgrupp. Från blogginlägg till sociala medier och videoinnehåll, vi bygger ditt varumärke och driver trafik.",
         "testimonial": "Vårt företag har sett en stor ökning i varumärkesmedvetenhet och kundengagemang sedan vi började använda deras innehållsskapande tjänster."
       }
-    },
-     {
-      "name" :"Lidköping" 
-     }
-
+    }
   ]
 }

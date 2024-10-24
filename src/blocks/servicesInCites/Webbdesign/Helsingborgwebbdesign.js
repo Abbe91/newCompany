@@ -9,6 +9,7 @@
       metaContent: "Bygg en användarvänlig och modern webbplats med våra webbdesigntjänster i Helsingborg. Anpassade lösningar för företag.",
       query: "Webbdesign i Helsingborg",
       city: "Helsingborg",
+      h1: "Webbdesign för företag i Helsingborg",
       formTitle: "Få en kostnadsfri analys av din webbplats i Helsingborg",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Helsingborg?",

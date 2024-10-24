@@ -9,6 +9,7 @@ const EhandelServicehelsingborg = () => {
     metaContent: "Optimera din e-handel med våra tjänster i Helsingborg och öka dina konverteringar och försäljning.",
     query: "e-handel tjänster i Helsingborg",
     city: "Helsingborg",
+    h1: "E-handelstjänster för företag i Helsingborg",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Helsingborg",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Helsingborg?",

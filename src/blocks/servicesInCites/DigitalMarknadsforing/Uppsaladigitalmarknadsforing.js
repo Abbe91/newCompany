@@ -9,6 +9,7 @@ const DigitalMarknadsforingServiceuppsala = () => {
     metaContent: "Våra digitala marknadsföringstjänster i Uppsala hjälper ditt företag att öka sin synlighet online och generera fler leads.",
     query: "digital marknadsföring i Uppsala",
     city: "Uppsala",
+    h1: "Digital marknadsföring för företag i Uppsala",
     formTitle: "Få en kostnadsfri analys av din digitala marknadsföring i Uppsala",
     subTitle2: "Förbättra din online-närvaro och nå fler kunder i Uppsala.",
     subTitle3: "Behöver du professionell hjälp med digital marknadsföring i Uppsala?",

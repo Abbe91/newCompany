@@ -9,6 +9,7 @@ const InnehallsskapandeServicestockholm = () => {
     metaContent: "Skapa högkvalitativt och engagerande innehåll som resonerar med din målgrupp. Våra tjänster för innehållsskapande i Stockholm hjälper dig att bygga varumärkesauktoritet och driva trafik.",
     query: "innehållsskapande i Stockholm",
     city: "Stockholm",
+    h1: "Innehållsskapande för företag i Stockholm",
     formTitle: "Få en kostnadsfri analys av din innehållsstrategi i Stockholm",
     subTitle2: "Förbättra din webbplats med kvalitetsinnehåll i Stockholm.",
     subTitle3: "Behöver du professionell hjälp med innehållsskapande i Stockholm?",

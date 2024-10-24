@@ -1,8 +1,8 @@
 const GenerateInnehallsskapande = (innehallsskapandeData, cityName) => {
   const normalizeCityName = cityName
-    .normalize('NFD') 
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-zA-Z0-9]/g, '') 
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
     .toLowerCase();
 
   return `
@@ -16,6 +16,7 @@ const InnehallsskapandeService${normalizeCityName} = () => {
     metaContent: "${innehallsskapandeData.meta_description}",
     query: "innehållsskapande i ${cityName}",
     city: "${cityName}",
+    h1: "${innehallsskapandeData.h1}",
     formTitle: "Få en kostnadsfri analys av din innehållsstrategi i ${cityName}",
     subTitle2: "Förbättra din webbplats med kvalitetsinnehåll i ${cityName}.",
     subTitle3: "Behöver du professionell hjälp med innehållsskapande i ${cityName}?",

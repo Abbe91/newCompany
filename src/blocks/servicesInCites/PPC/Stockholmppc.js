@@ -9,6 +9,7 @@ const PpcannonseringServicestockholm = () => {
     metaContent: "Maximera din avkastning på investeringar med våra PPC-reklamtjänster i Stockholm. Vi skapar och hanterar Google Ads-kampanjer som driver konverteringar.",
     query: "PPC-annonsering i Stockholm",
     city: "Stockholm",
+    h1: "PPC-reklam för företag i Stockholm",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Stockholm",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Stockholm?",

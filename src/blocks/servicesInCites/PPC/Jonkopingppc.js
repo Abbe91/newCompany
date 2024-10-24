@@ -9,6 +9,7 @@ const PpcannonseringServicejonkoping = () => {
     metaContent: "Driv fler kvalificerade leads med våra PPC-reklamtjänster i Jönköping. Vi optimerar dina kampanjer för maximal avkastning.",
     query: "PPC-annonsering i Jönköping",
     city: "Jönköping",
+    h1: "PPC-reklam för företag i Jönköping",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Jönköping",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Jönköping?",

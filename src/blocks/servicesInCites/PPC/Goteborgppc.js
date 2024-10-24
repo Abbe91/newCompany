@@ -9,6 +9,7 @@ const PpcannonseringServicegoteborg = () => {
     metaContent: "Våra PPC-tjänster i Göteborg hjälper företag att driva mer trafik och leads. Vi skapar och hanterar Google Ads-kampanjer som maximerar din avkastning.",
     query: "PPC-annonsering i Göteborg",
     city: "Göteborg",
+    h1: "PPC-reklam för företag i Göteborg",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Göteborg",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Göteborg?",

@@ -9,6 +9,7 @@ const PpcannonseringServicehelsingborg = () => {
     metaContent: "Öka din försäljning och få fler leads med våra PPC-tjänster i Helsingborg. Vi skapar och hanterar kampanjer som driver resultat.",
     query: "PPC-annonsering i Helsingborg",
     city: "Helsingborg",
+    h1: "PPC-reklam för företag i Helsingborg",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Helsingborg",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Helsingborg?",

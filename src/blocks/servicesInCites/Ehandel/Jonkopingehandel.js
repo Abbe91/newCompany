@@ -9,6 +9,7 @@ const EhandelServicejonkoping = () => {
     metaContent: "Väx din e-handelsverksamhet i Jönköping med våra skräddarsydda lösningar. Öka dina konverteringar och förbättra kundupplevelsen.",
     query: "e-handel tjänster i Jönköping",
     city: "Jönköping",
+    h1: "E-handelstjänster för företag i Jönköping",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Jönköping",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Jönköping?",

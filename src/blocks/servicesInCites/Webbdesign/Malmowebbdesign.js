@@ -9,6 +9,7 @@
       metaContent: "Bygg en modern och SEO-optimerad webbplats med våra professionella webbdesigntjänster i Malmö. Skräddarsydda lösningar för ditt företag.",
       query: "Webbdesign i Malmö",
       city: "Malmö",
+      h1: "Webbdesign för företag i Malmö",
       formTitle: "Få en kostnadsfri analys av din webbplats i Malmö",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Malmö?",

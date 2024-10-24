@@ -9,6 +9,7 @@ const PpcannonseringServicevasteras = () => {
     metaContent: "Få fler leads och öka din försäljning med våra PPC-tjänster i Västerås. Vi optimerar dina kampanjer för maximal avkastning.",
     query: "PPC-annonsering i Västerås",
     city: "Västerås",
+    h1: "PPC-reklam för företag i Västerås",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Västerås",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Västerås?",

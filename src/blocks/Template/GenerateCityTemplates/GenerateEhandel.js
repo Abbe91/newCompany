@@ -1,9 +1,9 @@
 const GenerateEhandel = (ehandelData, cityName) => {
   const normalizeCityName = cityName
-    .normalize('NFD') 
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-zA-Z0-9]/g, '') 
-    .toLowerCase(); 
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .toLowerCase();
 
   return `
 import React from "react";
@@ -16,6 +16,7 @@ const EhandelService${normalizeCityName} = () => {
     metaContent: "${ehandelData.meta_description}",
     query: "e-handel tjänster i ${cityName}",
     city: "${cityName}",
+    h1: "${ehandelData.h1}",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i ${cityName}",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i ${cityName}?",

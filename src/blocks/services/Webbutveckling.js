@@ -8,7 +8,8 @@ const WebbutvecklingService = () => {
     metaContent:
       "Vill du förbättra din webbplats och öka din online-närvaro? Våra experter på webbutveckling hjälper dig att skapa en imponerande webbplats.",
     query: "webbutveckling",
-    city: "", 
+    city: "",
+    h1: "Webbutveckling för företag",
     formTitle: "Få en kostnadsfri analys av din webbplats",
     subTitle2: "Förbättra din webbplats design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med webbutveckling?",
@@ -22,7 +23,12 @@ const WebbutvecklingService = () => {
     ourSerivce: "Webbutveckling",
   };
 
-  return <div> <BlocksTemplate serviceData={serviceData}/> </div>;
+  return (
+    <div>
+      {" "}
+      <BlocksTemplate serviceData={serviceData} />{" "}
+    </div>
+  );
 };
 
 export default WebbutvecklingService;

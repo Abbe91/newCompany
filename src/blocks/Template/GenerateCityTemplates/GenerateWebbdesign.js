@@ -1,11 +1,11 @@
 const GenerateWebbdesign = (webbdesignData, cityName) => {
-    const normalizeCityName = cityName
-      .normalize('NFD') 
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-zA-Z0-9]/g, '') 
-      .toLowerCase(); 
-  
-    return `
+  const normalizeCityName = cityName
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .toLowerCase();
+
+  return `
   import React from "react";
   import BlocksTemplate from "../../Template/BlocksTemplate";
   
@@ -16,6 +16,7 @@ const GenerateWebbdesign = (webbdesignData, cityName) => {
       metaContent: "${webbdesignData.meta_description}",
       query: "Webbdesign i ${cityName}",
       city: "${cityName}",
+      h1: "${webbdesignData.h1}",
       formTitle: "Få en kostnadsfri analys av din webbplats i ${cityName}",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i ${cityName}?",
@@ -31,8 +32,6 @@ const GenerateWebbdesign = (webbdesignData, cityName) => {
   
   export default WebbdesignService${normalizeCityName};
   `;
-  
-  };
-  
-  module.exports = GenerateWebbdesign;
-  
+};
+
+module.exports = GenerateWebbdesign;

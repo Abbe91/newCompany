@@ -1,9 +1,9 @@
 const GenerateUXDesign = (uxDesignData, cityName) => {
   const normalizeCityName = cityName
-    .normalize('NFD') 
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-zA-Z0-9]/g, '') 
-    .toLowerCase(); 
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .toLowerCase();
 
   return `
 import React from "react";
@@ -16,6 +16,7 @@ const UxdesignService${normalizeCityName} = () => {
     metaContent: "${uxDesignData.meta_description}",
     query: "UX-design i ${cityName}",
     city: "${cityName}",
+    h1: "${uxDesignData.h1}",
     formTitle: "Få en kostnadsfri analys av din UX-design i ${cityName}",
     subTitle2: "Förbättra användarupplevelsen och öka konverteringarna.",
     subTitle3: "Behöver du professionell hjälp med UX-design i ${cityName}?",
@@ -31,7 +32,6 @@ const UxdesignService${normalizeCityName} = () => {
 
 export default UxdesignService${normalizeCityName};
 `;
-
 };
 
 module.exports = GenerateUXDesign;

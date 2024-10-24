@@ -9,6 +9,7 @@
       metaContent: "Få en responsiv och modern webbplats med våra webbdesigntjänster i Uppsala. Vi erbjuder skräddarsydda lösningar för företag.",
       query: "Webbdesign i Uppsala",
       city: "Uppsala",
+      h1: "Webbdesign för företag i Uppsala",
       formTitle: "Få en kostnadsfri analys av din webbplats i Uppsala",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Uppsala?",

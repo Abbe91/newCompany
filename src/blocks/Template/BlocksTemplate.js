@@ -16,31 +16,42 @@ import booking from "../../utils/animation/Booking-time.json";
 import BookingModal from "../../components/BookingModal";
 
 const BlocksTemplate = ({ serviceData }) => {
-    const [modalOpen, setModalOpen] = useState(false);
-    const { mainquery, metaTitle, metaContent, query, city, formTitle, subTitle2, subTitle3, services, videoText, pageUrl, text1, aboutUsText, ourSerivce} = serviceData
+  const [modalOpen, setModalOpen] = useState(false);
+  const {
+    mainquery,
+    metaTitle,
+    metaContent,
+    query,
+    city,
+    formTitle,
+    subTitle2,
+    subTitle3,
+    services,
+    videoText,
+    h1,
+    pageUrl,
+    text1,
+    aboutUsText,
+    ourSerivce,
+  } = serviceData;
 
-const element = useSelector(getElement);
-const customerData = useSelector(getCustomerData);
-const newsData = useSelector(getNewsData);
+  const element = useSelector(getElement);
+  const customerData = useSelector(getCustomerData);
+  const newsData = useSelector(getNewsData);
 
-useEffect(() => {
-  document
-    .querySelector(`.${element}`)
-    .scrollIntoView({ behavior: "smooth" });
-}, [element]);
+  useEffect(() => {
+    document
+      .querySelector(`.${element}`)
+      .scrollIntoView({ behavior: "smooth" });
+  }, [element]);
 
-
-return (
+  return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{metaTitle}</title>
         <meta name="description" content={metaContent} />
-        <link
-          hrefLang="sv"
-          rel="canonical"
-          href={pageUrl}
-        />
+        <link hrefLang="sv" rel="canonical" href={pageUrl} />
       </Helmet>
       <div className="Nav">
         <Nav />
@@ -57,6 +68,7 @@ return (
           text={`Behöver du hjälp med ${mainquery}? Då är vi på ${customerData.business} det självklara valet. Vi är en firma som verkligen kan allt kring ${mainquery}. Vi kan också hjälpa dig med ${services}. Vi erbjuder en full helhetslösning med målet att ge det bästa valet för dig och din plånbok. Som kund hos har du allt samlat hos ett och samma företag.`}
           subTitle4={`Helhetslösning för ${mainquery}`}
           text1={text1}
+          h1={h1}
           subTitle5={"Våra tjänster"}
           text2={`Vi kan hjälpa dig med ${services}`}
         />

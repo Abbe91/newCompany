@@ -9,6 +9,7 @@ const DigitalMarknadsforingServicejonkoping = () => {
     metaContent: "Öka din synlighet och nå fler kunder med våra tjänster för digital marknadsföring i Jönköping. Vi erbjuder SEO, PPC, sociala medier och mer.",
     query: "digital marknadsföring i Jönköping",
     city: "Jönköping",
+    h1: "Digital marknadsföring för företag i Jönköping",
     formTitle: "Få en kostnadsfri analys av din digitala marknadsföring i Jönköping",
     subTitle2: "Förbättra din online-närvaro och nå fler kunder i Jönköping.",
     subTitle3: "Behöver du professionell hjälp med digital marknadsföring i Jönköping?",

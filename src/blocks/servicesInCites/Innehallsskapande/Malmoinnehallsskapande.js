@@ -9,6 +9,7 @@ const InnehallsskapandeServicemalmo = () => {
     metaContent: "Vi skapar högkvalitativt innehåll som engagerar din målgrupp och driver konverteringar. Våra tjänster för innehållsskapande i Malmö är skräddarsydda för ditt företag.",
     query: "innehållsskapande i Malmö",
     city: "Malmö",
+    h1: "Innehållsskapande för företag i Malmö",
     formTitle: "Få en kostnadsfri analys av din innehållsstrategi i Malmö",
     subTitle2: "Förbättra din webbplats med kvalitetsinnehåll i Malmö.",
     subTitle3: "Behöver du professionell hjälp med innehållsskapande i Malmö?",

@@ -9,6 +9,7 @@
       metaContent: "Bygg en högpresterande och SEO-optimerad webbplats med våra webbdesigntjänster i Göteborg. Skräddarsydda lösningar för dina affärsbehov.",
       query: "Webbdesign i Göteborg",
       city: "Göteborg",
+      h1: "Webbdesign för företag i Göteborg",
       formTitle: "Få en kostnadsfri analys av din webbplats i Göteborg",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Göteborg?",

@@ -1,9 +1,9 @@
 const GenerateSEO = (seoData, cityName) => {
   const normalizeCityName = cityName
-    .normalize('NFD') 
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-zA-Z0-9]/g, '') 
-    .toLowerCase(); 
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .toLowerCase();
 
   return `
 import React from "react";
@@ -16,6 +16,7 @@ const SeoService${normalizeCityName} = () => {
     metaContent: "${seoData.meta_description}",
     query: "SEO tjänster i ${cityName}",
     city: "${cityName}",
+    h1: "${seoData.h1}",
     formTitle: "Få en kostnadsfri SEO-analys i ${cityName}",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i ${cityName}?",
@@ -31,7 +32,6 @@ const SeoService${normalizeCityName} = () => {
 
 export default SeoService${normalizeCityName};
 `;
-
 };
 
 module.exports = GenerateSEO;

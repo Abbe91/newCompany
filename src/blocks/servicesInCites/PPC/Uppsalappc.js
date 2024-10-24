@@ -9,6 +9,7 @@ const PpcannonseringServiceuppsala = () => {
     metaContent: "Maximera din avkastning med våra PPC-tjänster i Uppsala. Vi skapar effektiva Google Ads-kampanjer som driver konverteringar.",
     query: "PPC-annonsering i Uppsala",
     city: "Uppsala",
+    h1: "PPC-reklam för företag i Uppsala",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Uppsala",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Uppsala?",

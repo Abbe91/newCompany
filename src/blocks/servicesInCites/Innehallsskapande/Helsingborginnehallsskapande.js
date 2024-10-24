@@ -9,6 +9,7 @@ const InnehallsskapandeServicehelsingborg = () => {
     metaContent: "Skapa innehåll som engagerar din målgrupp och bygger varumärkesmedvetenhet. Våra tjänster för innehållsskapande i Helsingborg hjälper dig att växa online.",
     query: "innehållsskapande i Helsingborg",
     city: "Helsingborg",
+    h1: "Innehållsskapande för företag i Helsingborg",
     formTitle: "Få en kostnadsfri analys av din innehållsstrategi i Helsingborg",
     subTitle2: "Förbättra din webbplats med kvalitetsinnehåll i Helsingborg.",
     subTitle3: "Behöver du professionell hjälp med innehållsskapande i Helsingborg?",

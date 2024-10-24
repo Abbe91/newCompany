@@ -9,6 +9,7 @@ const UxdesignServicemalmo = () => {
     metaContent: "Förbättra användarupplevelsen på din webbplats med våra UX-designtjänster i Malmö. Skapa engagerande och intuitiva designer som konverterar.",
     query: "UX-design i Malmö",
     city: "Malmö",
+    h1: "UX-design för företag i Malmö",
     formTitle: "Få en kostnadsfri analys av din UX-design i Malmö",
     subTitle2: "Förbättra användarupplevelsen och öka konverteringarna.",
     subTitle3: "Behöver du professionell hjälp med UX-design i Malmö?",

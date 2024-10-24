@@ -9,6 +9,7 @@ const SeoServiceuppsala = () => {
     metaContent: "Förbättra din synlighet på sökmotorer med våra SEO-tjänster i Uppsala. Driv mer trafik och öka försäljningen.",
     query: "SEO tjänster i Uppsala",
     city: "Uppsala",
+    h1: "SEO-tjänster för företag i Uppsala",
     formTitle: "Få en kostnadsfri SEO-analys i Uppsala",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Uppsala?",

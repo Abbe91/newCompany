@@ -9,6 +9,7 @@
       metaContent: "Skapa en responsiv och professionell webbplats med våra webbdesigntjänster i Västerås. Anpassade lösningar för ditt företag.",
       query: "Webbdesign i Västerås",
       city: "Västerås",
+      h1: "Webbdesign för företag i Västerås",
       formTitle: "Få en kostnadsfri analys av din webbplats i Västerås",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Västerås?",

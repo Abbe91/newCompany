@@ -9,6 +9,7 @@ const UxdesignServicestockholm = () => {
     metaContent: "Skapa användarvänliga och engagerande webbplatser med våra UX-designtjänster i Stockholm. Vi hjälper dig att designa med dina användare i åtanke för att öka konverteringarna.",
     query: "UX-design i Stockholm",
     city: "Stockholm",
+    h1: "UX-design för företag i Stockholm",
     formTitle: "Få en kostnadsfri analys av din UX-design i Stockholm",
     subTitle2: "Förbättra användarupplevelsen och öka konverteringarna.",
     subTitle3: "Behöver du professionell hjälp med UX-design i Stockholm?",

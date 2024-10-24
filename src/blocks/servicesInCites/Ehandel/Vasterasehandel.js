@@ -9,6 +9,7 @@ const EhandelServicevasteras = () => {
     metaContent: "Väx din e-handelsverksamhet i Västerås med våra skräddarsydda lösningar. Öka din försäljning och konvertering.",
     query: "e-handel tjänster i Västerås",
     city: "Västerås",
+    h1: "E-handelstjänster för företag i Västerås",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Västerås",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Västerås?",

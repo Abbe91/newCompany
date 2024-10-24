@@ -9,6 +9,7 @@ const EhandelServiceuppsala = () => {
     metaContent: "Bygg och optimera din e-handel med våra tjänster i Uppsala. Öka dina konverteringar och försäljning.",
     query: "e-handel tjänster i Uppsala",
     city: "Uppsala",
+    h1: "E-handelstjänster för företag i Uppsala",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Uppsala",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Uppsala?",

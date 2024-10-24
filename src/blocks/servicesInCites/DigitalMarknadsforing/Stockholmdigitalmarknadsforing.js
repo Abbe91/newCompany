@@ -9,6 +9,7 @@ const DigitalMarknadsforingServicestockholm = () => {
     metaContent: "Driv trafik, öka försäljningen och väx ditt företag med våra digitala marknadsföringstjänster i Stockholm. Vi erbjuder SEO, PPC, innehållsskapande och mer.",
     query: "digital marknadsföring i Stockholm",
     city: "Stockholm",
+    h1: "Lösningar för digital marknadsföring för företag i Stockholm",
     formTitle: "Få en kostnadsfri analys av din digitala marknadsföring i Stockholm",
     subTitle2: "Förbättra din online-närvaro och nå fler kunder i Stockholm.",
     subTitle3: "Behöver du professionell hjälp med digital marknadsföring i Stockholm?",

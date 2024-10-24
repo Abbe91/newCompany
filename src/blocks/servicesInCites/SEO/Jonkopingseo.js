@@ -9,6 +9,7 @@ const SeoServicejonkoping = () => {
     metaContent: "Få ditt företag att synas på sökmotorer med våra SEO-tjänster i Jönköping. Förbättra dina sökresultat och öka din trafik.",
     query: "SEO tjänster i Jönköping",
     city: "Jönköping",
+    h1: "SEO-tjänster för företag i Jönköping",
     formTitle: "Få en kostnadsfri SEO-analys i Jönköping",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Jönköping?",

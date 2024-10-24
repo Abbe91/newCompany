@@ -9,6 +9,7 @@ const SeoServicevasteras = () => {
     metaContent: "Förbättra dina lokala sökrankningar med våra SEO-tjänster i Västerås. Driv mer trafik och öka din synlighet.",
     query: "SEO tjänster i Västerås",
     city: "Västerås",
+    h1: "SEO-tjänster för företag i Västerås",
     formTitle: "Få en kostnadsfri SEO-analys i Västerås",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Västerås?",

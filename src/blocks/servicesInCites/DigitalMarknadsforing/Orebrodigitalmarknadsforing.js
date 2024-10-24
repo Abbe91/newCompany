@@ -9,6 +9,7 @@ const DigitalMarknadsforingServiceorebro = () => {
     metaContent: "Våra tjänster för digital marknadsföring i Örebro hjälper företag att växa online och öka sin synlighet.",
     query: "digital marknadsföring i Örebro",
     city: "Örebro",
+    h1: "Digital marknadsföring för företag i Örebro",
     formTitle: "Få en kostnadsfri analys av din digitala marknadsföring i Örebro",
     subTitle2: "Förbättra din online-närvaro och nå fler kunder i Örebro.",
     subTitle3: "Behöver du professionell hjälp med digital marknadsföring i Örebro?",

@@ -9,6 +9,7 @@ const SeoServicemalmo = () => {
     metaContent: "Förbättra dina sökrankningar med experttjänster inom SEO i Malmö. Driv mer trafik och väx ditt företag.",
     query: "SEO tjänster i Malmö",
     city: "Malmö",
+    h1: "SEO-tjänster för företag i Malmö",
     formTitle: "Få en kostnadsfri SEO-analys i Malmö",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Malmö?",

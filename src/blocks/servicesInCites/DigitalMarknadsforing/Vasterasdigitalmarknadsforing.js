@@ -9,6 +9,7 @@ const DigitalMarknadsforingServicevasteras = () => {
     metaContent: "Väx ditt företag med våra digitala marknadsföringstjänster i Västerås. Vi erbjuder SEO, PPC, och mer.",
     query: "digital marknadsföring i Västerås",
     city: "Västerås",
+    h1: "Digital marknadsföring för företag i Västerås",
     formTitle: "Få en kostnadsfri analys av din digitala marknadsföring i Västerås",
     subTitle2: "Förbättra din online-närvaro och nå fler kunder i Västerås.",
     subTitle3: "Behöver du professionell hjälp med digital marknadsföring i Västerås?",

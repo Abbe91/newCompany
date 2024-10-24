@@ -9,6 +9,7 @@ const InnehallsskapandeServicegoteborg = () => {
     metaContent: "Vi hjälper företag i Göteborg att skapa högkvalitativt innehåll som resonerar med deras målgrupp. Bygg ditt varumärke och engagera dina kunder med våra tjänster för innehållsskapande.",
     query: "innehållsskapande i Göteborg",
     city: "Göteborg",
+    h1: "Innehållsskapande för företag i Göteborg",
     formTitle: "Få en kostnadsfri analys av din innehållsstrategi i Göteborg",
     subTitle2: "Förbättra din webbplats med kvalitetsinnehåll i Göteborg.",
     subTitle3: "Behöver du professionell hjälp med innehållsskapande i Göteborg?",

@@ -9,6 +9,7 @@
       metaContent: "Få en professionell webbplats med våra webbdesigntjänster i Jönköping. Vi bygger moderna, användarvänliga och SEO-optimerade webbplatser.",
       query: "Webbdesign i Jönköping",
       city: "Jönköping",
+      h1: "Webbdesign för företag i Jönköping",
       formTitle: "Få en kostnadsfri analys av din webbplats i Jönköping",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Jönköping?",

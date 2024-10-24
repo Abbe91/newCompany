@@ -9,6 +9,7 @@ const EhandelServicegoteborg = () => {
     metaContent: "Boost din närvaro online med våra e-handelstjänster i Göteborg. Öka din försäljning med en användarvänlig onlinebutik.",
     query: "e-handel tjänster i Göteborg",
     city: "Göteborg",
+    h1: "E-handelstjänster för företag i Göteborg",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Göteborg",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Göteborg?",

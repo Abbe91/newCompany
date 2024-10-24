@@ -9,6 +9,7 @@ const UxdesignServiceorebro = () => {
     metaContent: "Förbättra din webbplats användarupplevelse med våra UX-designtjänster i Örebro. Öka dina konverteringar.",
     query: "UX-design i Örebro",
     city: "Örebro",
+    h1: "UX-design för företag i Örebro",
     formTitle: "Få en kostnadsfri analys av din UX-design i Örebro",
     subTitle2: "Förbättra användarupplevelsen och öka konverteringarna.",
     subTitle3: "Behöver du professionell hjälp med UX-design i Örebro?",

@@ -9,6 +9,7 @@ const EhandelServiceorebro = () => {
     metaContent: "Optimera din e-handelsverksamhet i Örebro med våra lösningar. Öka din konvertering och maximera din försäljning.",
     query: "e-handel tjänster i Örebro",
     city: "Örebro",
+    h1: "E-handelstjänster för företag i Örebro",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Örebro",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Örebro?",

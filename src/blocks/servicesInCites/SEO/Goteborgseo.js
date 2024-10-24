@@ -9,6 +9,7 @@ const SeoServicegoteborg = () => {
     metaContent: "Bli hittad av fler kunder med SEO-tjänster i Göteborg. Förbättra dina sökrankningar och driv lokal trafik.",
     query: "SEO tjänster i Göteborg",
     city: "Göteborg",
+    h1: "SEO-tjänster för företag i Göteborg",
     formTitle: "Få en kostnadsfri SEO-analys i Göteborg",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Göteborg?",

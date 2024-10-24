@@ -9,6 +9,7 @@ const InnehallsskapandeServicejonkoping = () => {
     metaContent: "Skapa engagerande innehåll som talar till din målgrupp. Våra tjänster för innehållsskapande i Jönköping hjälper dig att bygga varumärke och öka trafiken.",
     query: "innehållsskapande i Jönköping",
     city: "Jönköping",
+    h1: "Innehållsskapande för företag i Jönköping",
     formTitle: "Få en kostnadsfri analys av din innehållsstrategi i Jönköping",
     subTitle2: "Förbättra din webbplats med kvalitetsinnehåll i Jönköping.",
     subTitle3: "Behöver du professionell hjälp med innehållsskapande i Jönköping?",

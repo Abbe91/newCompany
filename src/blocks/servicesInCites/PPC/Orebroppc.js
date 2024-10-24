@@ -9,6 +9,7 @@ const PpcannonseringServiceorebro = () => {
     metaContent: "Maximera din avkastning med våra PPC-tjänster i Örebro. Driv fler kvalificerade leads och öka din försäljning.",
     query: "PPC-annonsering i Örebro",
     city: "Örebro",
+    h1: "PPC-reklam för företag i Örebro",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Örebro",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Örebro?",

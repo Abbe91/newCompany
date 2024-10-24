@@ -9,6 +9,7 @@
       metaContent: "Vi erbjuder webbdesign i Örebro som hjälper företag att bygga responsiva och användarvänliga webbplatser.",
       query: "Webbdesign i Örebro",
       city: "Örebro",
+      h1: "Webbdesign för företag i Örebro",
       formTitle: "Få en kostnadsfri analys av din webbplats i Örebro",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Örebro?",

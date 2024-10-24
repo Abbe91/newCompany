@@ -9,6 +9,7 @@
       metaContent: "Bygg fantastiska och högpresterande webbplatser med våra professionella webbdesigntjänster i Stockholm. Skräddarsydda lösningar anpassade efter dina affärsbehov.",
       query: "Webbdesign i Stockholm",
       city: "Stockholm",
+      h1: "Webbdesign för företag i Stockholm",
       formTitle: "Få en kostnadsfri analys av din webbplats i Stockholm",
       subTitle2: "Förbättra din webbplats design och funktionalitet.",
       subTitle3: "Behöver du professionell hjälp med webbdesign i Stockholm?",

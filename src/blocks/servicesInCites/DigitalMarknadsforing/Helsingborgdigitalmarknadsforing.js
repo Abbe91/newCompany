@@ -9,6 +9,7 @@ const DigitalMarknadsforingServicehelsingborg = () => {
     metaContent: "Få fler kunder med våra digitala marknadsföringstjänster i Helsingborg. Vi erbjuder SEO, PPC och innehållsmarknadsföring.",
     query: "digital marknadsföring i Helsingborg",
     city: "Helsingborg",
+    h1: "Digital marknadsföring för företag i Helsingborg",
     formTitle: "Få en kostnadsfri analys av din digitala marknadsföring i Helsingborg",
     subTitle2: "Förbättra din online-närvaro och nå fler kunder i Helsingborg.",
     subTitle3: "Behöver du professionell hjälp med digital marknadsföring i Helsingborg?",

@@ -9,6 +9,7 @@ const DigitalMarknadsforingServicemalmo = () => {
     metaContent: "Våra tjänster inom digital marknadsföring i Malmö är utformade för att hjälpa företag att öka synlighet, driva trafik och omvandla leads.",
     query: "digital marknadsföring i Malmö",
     city: "Malmö",
+    h1: "Lösningar för digital marknadsföring för företag i Malmö",
     formTitle: "Få en kostnadsfri analys av din digitala marknadsföring i Malmö",
     subTitle2: "Förbättra din online-närvaro och nå fler kunder i Malmö.",
     subTitle3: "Behöver du professionell hjälp med digital marknadsföring i Malmö?",

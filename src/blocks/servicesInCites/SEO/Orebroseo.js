@@ -9,6 +9,7 @@ const SeoServiceorebro = () => {
     metaContent: "Få ditt företag att synas med våra SEO-tjänster i Örebro. Förbättra dina sökrankningar och öka trafiken.",
     query: "SEO tjänster i Örebro",
     city: "Örebro",
+    h1: "SEO-tjänster för företag i Örebro",
     formTitle: "Få en kostnadsfri SEO-analys i Örebro",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Örebro?",

@@ -9,7 +9,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { setServices } from "../../redux-toolkit/snabbkollenSlice";
 import HeroImage from "../../utils/images/seoimages/hero-img.png";
 
-const MainComp = ({ subTitle5, text2, city, formTitle }) => {
+const MainComp = ({ subTitle5, text2, city, formTitle, h1 }) => {
   const Divider = lazy(() => import("./Divider"));
   const Arbetsprocessen = lazy(() => import("../Arbetsprocessen"));
   const MainUseComp = lazy(() => import("./MainUseComp"));
@@ -30,7 +30,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
     <section className="root">
       <div className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Vi hjälper dig att nå dina mål</h1>
+          <h1 className="hero-title">{h1}</h1>
           <div className="hero-points">
             <p>. Skräddarsydd strategi</p>
             <p>. Optimerad marknadsföring</p>

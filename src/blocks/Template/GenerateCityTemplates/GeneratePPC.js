@@ -1,9 +1,9 @@
 const GeneratePPC = (ppcData, cityName) => {
   const normalizeCityName = cityName
-    .normalize('NFD') 
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-zA-Z0-9]/g, '') 
-    .toLowerCase(); 
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .toLowerCase();
 
   return `
 import React from "react";
@@ -16,6 +16,7 @@ const PpcannonseringService${normalizeCityName} = () => {
     metaContent: "${ppcData.meta_description}",
     query: "PPC-annonsering i ${cityName}",
     city: "${cityName}",
+    h1: "${ppcData.h1}",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i ${cityName}",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i ${cityName}?",
@@ -31,7 +32,6 @@ const PpcannonseringService${normalizeCityName} = () => {
 
 export default PpcannonseringService${normalizeCityName};
 `;
-
 };
 
 module.exports = GeneratePPC;

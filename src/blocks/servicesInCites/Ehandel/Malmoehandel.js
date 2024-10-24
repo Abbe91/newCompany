@@ -9,6 +9,7 @@ const EhandelServicemalmo = () => {
     metaContent: "Vill du förbättra din e-handelsverksamhet i Malmö? Våra e-handelstjänster är utformade för att hjälpa dig lyckas online.",
     query: "e-handel tjänster i Malmö",
     city: "Malmö",
+    h1: "E-handelstjänster för företag i Malmö",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Malmö",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Malmö?",

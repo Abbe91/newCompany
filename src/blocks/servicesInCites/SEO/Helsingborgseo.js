@@ -9,6 +9,7 @@ const SeoServicehelsingborg = () => {
     metaContent: "Få ditt företag att rankas högre på sökmotorer med våra SEO-tjänster i Helsingborg. Förbättra dina sökresultat.",
     query: "SEO tjänster i Helsingborg",
     city: "Helsingborg",
+    h1: "SEO-tjänster för företag i Helsingborg",
     formTitle: "Få en kostnadsfri SEO-analys i Helsingborg",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Helsingborg?",

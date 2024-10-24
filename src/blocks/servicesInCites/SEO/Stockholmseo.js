@@ -9,6 +9,7 @@ const SeoServicestockholm = () => {
     metaContent: "Öka din närvaro online för ditt företag i Stockholm med skräddarsydda SEO-tjänster. Förbättra dina sökrankningar idag.",
     query: "SEO tjänster i Stockholm",
     city: "Stockholm",
+    h1: "SEO-tjänster för företag i Stockholm",
     formTitle: "Få en kostnadsfri SEO-analys i Stockholm",
     subTitle2: "Förbättra din webbplats ranking och synlighet.",
     subTitle3: "Behöver du professionell hjälp med SEO i Stockholm?",

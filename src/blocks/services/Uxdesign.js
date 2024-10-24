@@ -8,7 +8,8 @@ const UxdesignService = () => {
     metaContent:
       "Vill du förbättra användarupplevelsen på din webbplats? Våra experter på UX-design hjälper dig att skapa en användarvänlig och engagerande webbplats.",
     query: "UX-design",
-    city: "", 
+    city: "",
+    h1: "UX-design för företag",
     formTitle: "Få en kostnadsfri analys av din UX-design",
     subTitle2: "Förbättra användarupplevelsen och öka konverteringarna.",
     subTitle3: "Behöver du professionell hjälp med UX-design?",
@@ -19,10 +20,15 @@ const UxdesignService = () => {
       "Låt oss ta hand om din UX-design. Med vår expertis och erfarenhet kan du känna dig trygg med att din webbplats är i goda händer. Vi erbjuder en helhetslösning som inkluderar allt från användarundersökningar till design och testning. Vårt mål är att hjälpa dig att skapa en användarvänlig och engagerande webbplats som ökar konverteringarna.",
     aboutUsText:
       "Vi är ett team av erfarna UX-design-specialister med en passion för att hjälpa företag att nå sina digitala mål.",
-    ourSerivce: "UX-design"
+    ourSerivce: "UX-design",
   };
 
-  return <div> <BlocksTemplate serviceData={serviceData}/> </div>;
+  return (
+    <div>
+      {" "}
+      <BlocksTemplate serviceData={serviceData} />{" "}
+    </div>
+  );
 };
 
 export default UxdesignService;

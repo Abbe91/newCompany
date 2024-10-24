@@ -9,6 +9,7 @@ const PpcannonseringServicemalmo = () => {
     metaContent: "Driv fler kvalificerade leads och öka försäljningen med våra PPC-reklamtjänster i Malmö. Vi skapar optimerade Google Ads-kampanjer för att maximera din avkastning.",
     query: "PPC-annonsering i Malmö",
     city: "Malmö",
+    h1: "PPC-reklam för företag i Malmö",
     formTitle: "Få en kostnadsfri analys av din PPC-annonsering i Malmö",
     subTitle2: "Förbättra din annonseringsstrategi och nå fler kunder.",
     subTitle3: "Behöver du professionell hjälp med PPC-annonsering i Malmö?",

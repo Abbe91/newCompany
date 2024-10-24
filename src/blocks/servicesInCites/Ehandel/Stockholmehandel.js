@@ -9,6 +9,7 @@ const EhandelServicestockholm = () => {
     metaContent: "Vill du expandera din e-handelsverksamhet i Stockholm? Våra e-handelstjänster är utformade för att öka konverteringar och boosta din onlineförsäljning.",
     query: "e-handel tjänster i Stockholm",
     city: "Stockholm",
+    h1: "E-handelstjänster för företag i Stockholm",
     formTitle: "Få en kostnadsfri analys av din e-handelsplattform i Stockholm",
     subTitle2: "Förbättra din onlinebutiks design och funktionalitet.",
     subTitle3: "Behöver du professionell hjälp med e-handel i Stockholm?",

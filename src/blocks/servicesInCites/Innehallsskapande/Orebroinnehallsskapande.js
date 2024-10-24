@@ -9,6 +9,7 @@ const InnehallsskapandeServiceorebro = () => {
     metaContent: "Vi skapar innehåll som engagerar och driver trafik. Våra tjänster för innehållsskapande i Örebro hjälper dig att bygga en stark online-närvaro.",
     query: "innehållsskapande i Örebro",
     city: "Örebro",
+    h1: "Innehållsskapande för företag i Örebro",
     formTitle: "Få en kostnadsfri analys av din innehållsstrategi i Örebro",
     subTitle2: "Förbättra din webbplats med kvalitetsinnehåll i Örebro.",
     subTitle3: "Behöver du professionell hjälp med innehållsskapande i Örebro?",
